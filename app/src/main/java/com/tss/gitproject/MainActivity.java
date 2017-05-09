@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        L.e("hubert create simple log.");
         Log.e(TAG,"this is user2 edit");
         Log.e(TAG,"this is user1 edit");
         Log.e(TAG,"this is user1 add edit.");
