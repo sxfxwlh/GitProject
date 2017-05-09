@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.e(TAG,"this is user2 edit");
         Log.e(TAG,"this is user1 edit");
+        Log.e(TAG,"this is user1 add edit.");
     }
 }
